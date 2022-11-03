@@ -28,6 +28,7 @@ public class GameWindow extends JFrame {
         game_over = ImageIO.read(GameWindow.class.getResourceAsStream("game_overr.png"));
         restart = ImageIO.read(GameWindow.class.getResourceAsStream("restartt .png"));
 
+//it's comment
         game_window = new GameWindow();
         JLabel record = new JLabel("Піймав: " + score);
 
